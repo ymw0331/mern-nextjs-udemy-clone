@@ -23,6 +23,10 @@
     "mongoose": "^6.8.3",
     "morgan": "^1.10.0",
     "nanoid": "2.1.11",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "query-string": "6.13.1",
+    "stripe": "^11.6.0",
+    "url-parse": "^1.5.10",
+    "use-query-string": "^2.4.1"
   }
 }
