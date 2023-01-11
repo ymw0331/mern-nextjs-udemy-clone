@@ -2,8 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/user": "pages/user.js",
-  "/instructor": "pages/instructor.js",
-  "/": "pages/index.js",
   "/instructor/course/create": "pages/instructor/course/create.js"
 }
