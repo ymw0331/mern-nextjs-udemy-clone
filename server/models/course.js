@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 const { ObjectId } = mongoose.Schema;
 
-const lessonSchema = new mongoose.Schema( {
+const lessonSchema = new mongoose.Schema({
 
   title: {
     type: String,
@@ -18,7 +18,7 @@ const lessonSchema = new mongoose.Schema( {
     type: {},
     minglength: 200,
   },
-  video_link: {},
+  video: {},
   free_preview: {
     type: Boolean,
     default: false
@@ -28,7 +28,7 @@ const lessonSchema = new mongoose.Schema( {
 );
 
 
-const courseSchema = new mongoose.Schema( {
+const courseSchema = new mongoose.Schema({
   name: {
     type: String,
     trim: true,
@@ -64,8 +64,8 @@ const courseSchema = new mongoose.Schema( {
     ref: "User",
     required: true
   },
-  lessons: [ lessonSchema ]
+  lessons: [lessonSchema]
 
-}, { timestamps: true } );
+}, { timestamps: true });
 
-export default mongoose.model( "Course", courseSchema );
+export default mongoose.model("Course", courseSchema);

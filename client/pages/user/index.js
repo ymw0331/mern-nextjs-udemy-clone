@@ -1,23 +1,22 @@
-import Jumbotron from '../../coponents/Jumbotron';
+import Jumbotron from '../../components/Jumbotron';
 import { useState, useContext } from "react";
 import { Context } from "../../context";
-import UserRoute from '../../coponents/routes/UserRoute';
+import UserRoute from '../../components/routes/UserRoute';
 
-const UserIndex = () =>
-{
+const UserIndex = () => {
   // state
-  const [ hidden, setHidden ] = useState( true );
+  const [hidden, setHidden] = useState(true);
 
   const {
     state: { user },
-  } = useContext( Context );
+  } = useContext(Context);
 
 
 
   return (
     <UserRoute>
-      {/* { <Jumbotron title={ JSON.stringify( user, null, 4 ) } /> } */ }
-      <Jumbotron title={ "User dashboard" } />
+      {/* { <Jumbotron title={ JSON.stringify( user, null, 4 ) } /> } */}
+      <Jumbotron title={"User dashboard"} />
 
 
     </UserRoute>

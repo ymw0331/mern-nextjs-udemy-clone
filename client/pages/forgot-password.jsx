@@ -5,7 +5,7 @@ import { ConsoleSqlOutlined, SyncOutlined } from '@ant-design/icons';
 import Link from 'next/link';
 import { Context } from '../context';
 import { useRouter } from 'next/router';
-import Jumbotron from '../coponents/Jumbotron';
+import Jumbotron from '../components/Jumbotron';
 
 const ForgotPassword = () =>
 {

@@ -1,4 +1,4 @@
-import Jumbotron from '../coponents/Jumbotron';
+import Jumbotron from '../components/Jumbotron';
 
 export default function Index () 
 {

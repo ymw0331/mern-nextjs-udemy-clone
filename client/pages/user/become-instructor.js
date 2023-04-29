@@ -9,8 +9,8 @@ import
   LoadingOutlined,
 } from "@ant-design/icons";
 import { toast } from "react-toastify";
-import UserRoute from '../../coponents/routes/UserRoute';
-import Jumbotron from '../../coponents/Jumbotron';
+import UserRoute from '../../components/routes/UserRoute';
+import Jumbotron from '../../components/Jumbotron';
 
 const BecomeInstructor = () =>
 {

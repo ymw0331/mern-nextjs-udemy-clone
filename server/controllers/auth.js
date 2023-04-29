@@ -118,7 +118,7 @@ export const sendTestEmail = async ( req, res ) =>
   const params = {
     Source: process.env.EMAIL_FROM,
     Destination: {
-      ToAddresses: [ 'ymw0331@hotmail.com' ]
+      ToAddresses: [ 'ymw0331@gmail.com' ]
     },
     ReplyToAddresses: [ process.env.EMAIL_FROM ],
     Message: {

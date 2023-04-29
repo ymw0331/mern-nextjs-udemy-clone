@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import InstructorRoute from "../../coponents/routes/InstructorRoute";
-import Jumbotron from '../../coponents/Jumbotron';
+import InstructorRoute from "../../components/routes/InstructorRoute";
+import Jumbotron from '../../components/Jumbotron';
 import { Avatar } from "antd";
 import Link from "next/link";
 import { CheckCircleOutlined, CloseCircleOutlined } from "@ant-design/icons";

@@ -1,6 +1,0 @@
-const UserIndex = () =>
-{
-  return (
-    
-  );
-};

@@ -2,7 +2,7 @@ import { useContext, useEffect } from "react";
 import { Context } from "../../context";
 import { SyncOutlined } from "@ant-design/icons";
 import axios from "axios";
-import Jumbotron from '../../coponents/Jumbotron';
+import Jumbotron from '../../components/Jumbotron';
 
 const StripeCallback = () =>
 {

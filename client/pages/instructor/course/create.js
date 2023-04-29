@@ -1,8 +1,8 @@
 import { useState } from "react";
 import axios from "axios";
-import InstructorRoute from "../../../coponents/routes/InstructorRoute";
-import Jumbotron from '../../../coponents/Jumbotron';
-import CourseCreateForm from '../../../coponents/forms/CourseCreateForm.jsx';
+import InstructorRoute from "../../../components/routes/InstructorRoute";
+import Jumbotron from '../../../components/Jumbotron';
+import CourseCreateForm from '../../../components/forms/CourseCreateForm.jsx';
 import Resizer from 'react-image-file-resizer';
 import { toast } from 'react-toastify';
 import { useRouter } from 'next/router';

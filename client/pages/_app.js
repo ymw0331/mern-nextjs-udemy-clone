@@ -1,4 +1,4 @@
-import TopNav from '../coponents/TopNav';
+import TopNav from '../components/TopNav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'antd/dist/reset.css';
 import "./styles.css";
